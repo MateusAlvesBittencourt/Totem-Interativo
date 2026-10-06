@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "target": "ES2023",
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": false,
+    "strictNullChecks": false
+  },
+  "include": ["src/**/*", "test/src/controllers/app.controller.spec.ts", "test/src/controllers/exhibitors.controller.spec.ts", "test/src/controllers/products.controller.spec.ts", "test/src/controllers/visitors.controller.spec.ts", "test/src/services/reports.service.spec.ts", "test/src/services/sync.service.spec.ts", "test/src/services/visitors.service.spec.ts", "test/src/services/products.service.spec.ts", "test/src/services/exhibitors.service.spec.ts", "test/src/services/maps.service.spec.ts"]
+}
