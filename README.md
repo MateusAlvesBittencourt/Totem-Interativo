@@ -34,8 +34,6 @@ O banco de dados e os dados de eventos não acompanham o repositório. A configu
 - `backend/`: API, entidades, serviços e testes.
 - `frontend/`: interface web, mapa 3D e recursos estáticos.
 - `backend/.env.example`: configuração local de exemplo, sem credenciais.
-- `PUBLICAR_GITHUB.cmd`: publicação desta cópia no repositório de portfólio.
-- `COMO_PUBLICAR.md`: instruções de publicação no Windows.
 
 ## Executar localmente
 
